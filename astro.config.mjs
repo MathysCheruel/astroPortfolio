@@ -11,5 +11,6 @@ export default defineConfig({
     enabled: false
   },
   integrations: [react(), tailwind(), sitemap()],
-  site: 'https://MathysCheruel.github.io'
+  site: 'https://MathysCheruel.github.io',
+  base: 'main'
 });
